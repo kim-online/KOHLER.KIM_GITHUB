@@ -1,0 +1,424 @@
+[
+  {
+    "id": 1,
+    "sqid": "sq sq1",
+    "year": "KIM KÖHLER",
+    "name": "",
+    "type": "Art director, creative technologist & graphic designer.",
+    "logo": "assets/img/logo-01.svg",
+    "color": "#06465b",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "",
+      "text": ""
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/kim.jpg",
+      "large": "url('assets/img/kim.jpg')"
+    }
+  },
+  {
+    "id": 2,
+    "sqid": "sq sq2",
+    "year": "",
+    "name": "About me",
+    "type": "BIO, SKILLS & CONTACT",
+    "color": "#7ABCC7",
+    "description1": "Hi! My name is Kim. Thank you for exploring my portfolio! I am born & raised in Stockholm, Sweden. But have been based in the US for the last 4 years. 2017 graduate from the BFA Design & Technology program with a minor in Communication Design at Parsons The New School in New York. I love to explore new things within the fields of both technology and design. Thus, my work varies very wide over a broad spectrum of work. Creative technologist, coder, graphic desiger, design strategist? I have always found it difficult to put a label on what I am. The same way I am a Swede who adopted the English language, I see myself as a Designer who adopted the knowledge of code & other technologies. Even though most projects I engage in is very different, I usually apply the same process. During the school years I developed a very efficient way to quickly learn a new technology. This is combined with a thorough design process using strategies learnt in school and from my early years of working with management & sales. This research based combination usally guarantees an outcome with a clear communicated concept & appealing end product. Don't be afraid to reach out for questions/collaborations/proposals! I'm always eager to explore cool stuff.",
+    "description2": "SKILLS",
+    "description3": "+++++: branding, conceptualizing, problem-solving, sales management",
+    "description4": "++++: typography, illustrator, photoshop, indesign, javascript, html, css, paper.js, p5.js, processing, open frameworks, cinder, arduino, laser-cutting",
+    "description5": "+++: sketch, after effects, maya, java, c++, node.js, git, json, raspberry pi, eagle, 3d printing",
+    "description6": "++: rhino, fusion 360, premiere pro, cnc routing/milling, d3.js, three.js, excel",
+    "description7": "+: unity, python",
+    "link1": {
+      "adress": "https://www.linkedin.com/in/kim-köhler-640b83b7",
+      "text": "LINKEDIN"
+    },
+    "link2": {
+      "adress": "https://github.com/kim-online",
+      "text": "GITHUB"
+    },
+    "link3": {
+      "adress": "https://vimeo.com/user35349236",
+      "text": "VIMEO"
+    },
+    "link4": {
+      "adress": "mailto:kim@newschool.edu",
+      "text": "EMAIL"
+    },
+    "image": {
+      "small": "assets/img/googlestreetview.jpg",
+      "large": "url('assets/img/googlestreetview.jpg')"
+    }
+  },
+  {
+    "id": 3,
+    "sqid": "sq sq3",
+    "year": "",
+    "name": "Blog",
+    "type": "PROCESS, SMALLER PROJECTS & STUFF",
+    "color": "#CED767",
+    "description1": "Coming soon.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "",
+      "text": ""
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/blog.jpg",
+      "large": "url('assets/img/blog.jpg')"
+    }
+  },
+  {
+    "id": 4,
+    "sqid": "sq sq4",
+    "year": "2016",
+    "name": "Artificial waves",
+    "type": "INTERACTIVE ART INSTALLATION",
+    "color": "#F7ED94",
+    "description1": "Artificial waves is an interactive art installation that was created for and featuring in an exhibition called Tangram that ran in the spring of 2016. An experience based project created to give the user an immersive spatial experience aswell as it inspires to a dialogue about how we perceive our surrounding and what acctually shapes that perception. And how we live and look at our experiences.",
+    "description2": "The perception of walking through waves is altered by projecting an interactive wavepattern coded in openFrameworks onto the surface of low lying fog. The movement of the surface of fog mimics waves successfully. When the user's cognition realizes this environment behaves differently even though it looks familiar, it needs to be spatially attentive. In this case different means that the feeling, the smell and sound is not like the user have learnt. Once we have triggered the spatial attention the environment has to invite the user to explore the space using bodily movement. This is integral to shaping the perception of the environment. This can be fulfilled by interactivity that is reactive to the user’s input. Using a kinect, the wavepattern tracks where the user is and if he/she moves a ripple is emerging out of their position. Inviting the user to walk around and bodily explore how this artificial waves behaves around their movements. It is of my belief that these alterations most likely make you excited about exploring this space, just like a child explores new spatial environments.",
+    "description3": "Made with: openFrameworks, Xbox Kinect, Chauvet Nimbus Dry-Ice Fogger, BenQ MX720 XGA Digital Projector",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "https://vimeo.com/178489068",
+      "text": "VIMEO"
+    },
+    "link2": {
+      "adress": "assets/img/SpatialExplorationOfEnvironments.pdf",
+      "text": "RESEARCH PAPER"
+    },
+    "link3": {
+      "adress": "https://github.com/kim-online/KIMKOEHLERCODE2/tree/master/Final/myFinalWaves1",
+      "text": "GITHUB"
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/ArtWaves.jpg",
+      "large": "url('assets/img/ArtWaves.jpg')"
+    }
+  },
+  {
+    "id": 5,
+    "sqid": "sq sq5",
+    "year": "2015",
+    "name": "Ithaca",
+    "type": "BRANDING",
+    "color": "#EB818D",
+    "description1": "During spring 2015 I participated in a course named Branding concepts, the first class every student got to pull a bit of paper from a hat. Every single paper had different briefs on them. From which we was going to create a brand during the term. My brief was: “Create an outwear company that has been around for 100 years. But they are now rebranding to reach the Hiphop and the grafitti culture.” Through a lot of research and an intensive design process I created Ithaca. Please see the presentation for more information about the concept and graphics.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "assets/img/ithacapresentation.pdf",
+      "text": "FULL PRESENTATION"
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/ithaca.jpg",
+      "large": "url('assets/img/ithaca.jpg')"
+    }
+  },
+  {
+    "id": 6,
+    "sqid": "sq sq6",
+    "year": "2016",
+    "name": "Beating heart",
+    "type": "3D ART",
+    "color": "#F4AA6C",
+    "description1": "During fall 2016 I took a course to learn Maya and the structure of the 3D pipeline. For one of the projects I created this beating heart.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "https://vimeo.com/239624793",
+      "text": "VIMEO"
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/beatingheart.jpg",
+      "large": "url('assets/img/beatingheart.jpg')"
+    }
+  },
+  {
+    "id": 7,
+    "sqid": "sq sq7",
+    "year": "2016",
+    "name": "Mojos",
+    "type": "MOBILE UX/UI",
+    "color": "#5ABBB4",
+    "description1": "In one of the projects during the course Mobile design our assignment was to create a Mobile app. This included basic branding but with the largest focus on UX & UI. We learnt to create a concept from scratch, personas, userflow, usertesting, wireframes & designed screens for the onboarding part. I created Mojos, a cross-device game app where users gathers Monsters and play eachother by lining up their devices next to eachother, creating a merged game field over multipe devices. Please see the full presentation for more thorough information.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "assets/img/Mojospresentation.pdf",
+      "text": "FULL PRESENTATION"
+    },
+    "link2": {
+      "adress": "assets/img/Mojoswireframes.pdf",
+      "text": "WIREFRAMES"
+    },
+    "link3": {
+      "adress": "assets/img/Mojosdesignedscreens.pdf",
+      "text": "DESIGNED SCREENS"
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/Mojos.jpg",
+      "large": "url('assets/img/Mojos.jpg')"
+    }
+  },
+  {
+    "id": 8,
+    "sqid": "sq sq8",
+    "year": "2014",
+    "name": "The Lovedetector",
+    "type": "DEVICE ART",
+    "color": "#FFC7C9",
+    "description1": "The Lovedetector was acctually the first project I made during my first year in Design & Technology. Thus, It has become a very passionate project to me. The first prototype was made in 2014, obviously with some flaws. Which is the one you can see in the video. But I have kept on developing and iterating the Lovedetector ever since. Even though I have a final goal, it seems to be a project that will always be in progress. And I like it that way.",
+    "description2": "The concept and technology is based on findings from a research paper that was made at the University of Californa. Those findings show that there are measurable physical patterns that can only be seen within two indivuduals in love. A basic explanation would be to say that the male's heartbeat intervalls regulates in pattern following the female's. There is more information about this in the video or in the link to the original research paper. I found this amazing, a measurable physical sign of interpersonal energys & emotions. Thus, I created a device to detect these patterns of love. The Lovedetector.",
+    "description3": "Since the beggining of only using an arduino, pulse sensors, LEDs and processing, the technology has been iterated back and forth a couple of times. To Raspberry Pi, node.js & p5.js & back again, to ending up with two arduinos & 4 RFduinos for optimal communication. Everything to make the most of the project. In the current phase, the technolgy is set. Here is the eagle file I made to mill my prototype PCB.",
+    "description4": "Currently I am working on the creation and aesthetics of the box. I am in a very early stage, just made a quick prototype in Rhino & 3D printed it.",
+    "description5": "The aesthetics I am going for/being inspired by is that of the vintage E-meters that the Scientology use. This might seem like an odd choice, but I think it creates almost a humoristic mawkish feeling. The same feeling I want to emit. As detecting love is kind of bizarre.",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "https://vimeo.com/239625370",
+      "text": "VIMEO"
+    },
+    "link2": {
+      "adress": "https://vimeo.com/145476369",
+      "text": "RESEARCH VIDEO"
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/Lovedetector.jpg",
+      "large": "url('assets/img/Lovedetector.jpg')"
+    }
+  },
+  {
+    "id": 9,
+    "sqid": "sq sq9",
+    "year": "2016",
+    "name": "Marco weibel",
+    "type": "BRANDING/MOTION GRAPHICS",
+    "color": "#06465b",
+    "description1": "Marco Weibel is an internationally performing dj originating from Singapore. He was in need of logomark with a designed visual system around it. It had to be easy to grasp & use as he would use the system himself for posters, online marketing & live visuals. His mission is to be versatile enough to bring old music to young people and the other way around. Mixing generations. Marco is also into the idea of the world as an analog place, which translates into him mainly playing analog records. Thus I created this versatile system that would fit into every time period of music. For the typeface I picked one that resembles hand-lettering, which would be the analog version of a typeface. Further I made the logomark very playful and flexible. Instead of using both the regular M and a W, I changed the M to an upside down W. Both in the logomark and in his typeface. This way both his initials are used in only one letter. Here is a visual I made to explain the change of the regular M into an upside down W:",
+    "description2": "And here are some visuals portraying the versatility of the logomark & the design system:",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "assets/img/MARCOWEIBELBYKIM.pdf",
+      "text": "FULL PRESENTATION"
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/Marcoweibel.jpg",
+      "large": "url('assets/img/Marcoweibel.jpg')"
+    }
+  },
+  {
+    "id": 10,
+    "sqid": "sq sq10",
+    "year": "2017 In progress",
+    "name": "Burdock.js",
+    "type": "JAVASCRIPT LIBRARY",
+    "color": "#7ABCC7",
+    "description1": "Coming soon.",
+    "description2": "Made in: node.js, p5.js.",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "",
+      "text": ""
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/artificialwaves.jpg",
+      "large": "url('assets/img/artificialwaves.jpg')"
+    }
+  },
+  {
+    "id": 11,
+    "sqid": "sq sq11",
+    "year": "2017",
+    "name": "Space brush",
+    "type": "CREATIVE CODING",
+    "color": "#CED767",
+    "description1": "Coming soon.",
+    "description2": "Made in: Cinder.",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "",
+      "text": ""
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/07.png",
+      "large": "url('assets/img/07.png')"
+    }
+  },
+  {
+    "id": 12,
+    "sqid": "sq sq12",
+    "year": "",
+    "name": "Goose creek growlers",
+    "type": "BRANDING",
+    "color": "#F7ED94",
+    "description1": "Coming soon.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "description5": "",
+    "description6": "",
+    "description7": "",
+    "link1": {
+      "adress": "",
+      "text": ""
+    },
+    "link2": {
+      "adress": "",
+      "text": ""
+    },
+    "link3": {
+      "adress": "",
+      "text": ""
+    },
+    "link4": {
+      "adress": "",
+      "text": ""
+    },
+    "image": {
+      "small": "assets/img/gcg.png",
+      "large": "url('assets/img/gcg.png')"
+    }
+  }
+
+]

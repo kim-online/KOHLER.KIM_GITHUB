@@ -1,0 +1,556 @@
+
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*----------------------------------
+GRID
+----------------------------------*/
+
+.all-content{
+	width: 100vw;
+	height: 100vh;
+
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: inline-block;
+}
+
+li {
+	position: relative;
+}
+
+.squares {
+	opacity: 0;
+}
+
+.grid.visible .squares {
+	opacity: 1;
+}
+
+.squares > li.hidden{
+	opacity: 0.2;
+}
+
+
+.sq {
+	float: left;
+	width: 100vw;
+	height: 100vw;
+}
+
+
+.sq1 {
+	
+	background: #06465b;
+}
+
+.sq2 {
+
+	background: #7ABCC7;
+}
+
+.sq3 {
+
+	background: #CED767;
+}
+
+.sq4 {
+
+	background: #F7ED94;
+}
+
+.sq5 {
+
+	background: #EB818D;
+}
+
+.sq6 {
+
+	background: #F4AA6C;
+}
+
+.sq7 {
+	
+	background: #5ABBB4;
+}
+
+.sq8 {
+	
+	background: #FFC7C9;
+}
+
+.sq9 {
+	
+	background: #06465b;
+}
+
+.sq10 {
+	
+	background: #7ABCC7;
+}
+
+.sq11 {
+
+	background: #CED767;
+}
+
+.sq12 {
+
+	background: #F7ED94;
+}
+
+.sq:hover h1,
+.sq:hover h2,
+.sq:hover h3,
+.sq:hover img{
+	opacity: 1;
+}
+
+.sq1:hover {
+	background-size: auto 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url("../img/kim.jpg");
+}
+
+.sq2:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/googlestreetview.jpg");
+}
+
+.sq3:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/blog.jpg");
+}
+
+.sq4:hover {
+	background-size: auto 100%;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/ArtWaves.jpg");
+}
+
+.sq5:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/ithaca.jpg");
+}
+
+.sq6:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/beatingheart.jpg");
+}
+
+.sq7:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/Mojos.jpg");
+}
+
+.sq8:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/Lovedetector.jpg");
+}
+
+.sq9:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/Marcoweibel.jpg");
+}
+
+.sq11:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/07.png");
+}
+
+.sq12:hover {
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/gcg.png");
+}
+
+a {
+	opacity: 1;
+	pointer-events: auto;
+	margin-left: 5%;
+	font-family: "Courier New";
+	font-style: underline;
+	font-size: 13px;
+	font-weight: normal;
+	text-shadow: none;
+	color: #000000;
+}
+
+img {
+	opacity: 0;
+}
+
+.sq1 img {
+	height: 40%;
+	position: absolute;
+	top: 17.5%;
+	left: 15%;
+}
+
+/*----------------------------------
+TYPOGRAPHY
+----------------------------------*/
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), url("../fonts/Helvetica.dfont") format("dfont");
+}
+
+.type {
+	font-family: "Helvetica", "Courier New", sans-serif;
+	color: #000000;
+}
+
+mark {
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+h1,
+h2,
+h3 {
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+	font: "Helvetica";
+	font-size: 41px;
+	font-weight: bold;
+	letter-spacing: -.01em;
+	margin-left:  15%;
+	margin-right:  15%;
+}	
+
+h2 {
+	font-family: "Courier New";
+	margin-top: 3%;
+	margin-left:  15%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Courier New";
+	margin-top: 17.5%;
+	margin-left:  15%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+h4 {
+	padding: 0 5%;
+	font-family: "Courier New";
+	font-size: 13px;
+	font-weight: normal;
+	text-shadow: none;
+	
+}
+
+.sq1 h1 {
+	position: relative;
+	font: "Helvetica";
+	font-size: 0px;
+	font-weight: bold;
+	letter-spacing: -.01em;
+	padding-top: 0
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left:  15%;
+	opacity: 0;
+}
+
+.sq1 h1 mark{
+	opacity: 0;
+}	
+
+.sq1 h2 {
+	position: relative;
+	font-family: "Courier New";
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 17.5%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.sq1 h3 {
+	position: relative;
+	font-family: "Courier New";
+	margin-top: 62.5%;
+	margin-bottom: 0;
+	margin-left:  15%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.sq2 h1,
+.sq3 h1 {
+	position: relative;
+	margin-top: 17.5%;
+}
+
+.sq2 h3 mark,
+.sq3 h3 mark, 
+.sq12 h3 mark {
+	opacity: 0;
+}
+
+.sq2 h3 {
+	position: relative;
+	font: "Helvetica";
+	font-size: 0px;
+	font-weight: bold;
+	letter-spacing: -.01em;
+	padding-top: 0
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left:  15%;
+	opacity: 0;
+}
+
+.sq3 h3 {
+	position: relative;
+	font: "Helvetica";
+	font-size: 0px;
+	font-weight: bold;
+	letter-spacing: -.01em;
+	padding-top: 0
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left:  15%;
+	opacity: 0;
+}
+
+.highlightme { 
+	background-color:#FFFFFF; 
+}	
+
+/*---------------------------
+	Single Project Page
+----------------------------*/
+.single-project{
+	z-index: 100;
+}
+
+.overlay{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.6s;
+}
+
+.single-project.visible .overlay{
+	height: 100%;
+}
+
+.popup-detail{
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	margin-left: 0;
+	top: 0;
+	pointer-events: none;
+	opacity: 0;
+	transition: 0.4s;
+	text-align: left;
+	overflow: scroll;
+}
+
+.single-project.visible .popup-detail{
+	opacity: 1;
+	transition: 1.4s;
+	pointer-events: auto;
+	width: 100%;
+}
+
+.popup-detail h1{
+	margin-top: 45px;
+	margin-left: 5%;
+	opacity: 1;
+}
+
+.popup-detail figure{
+	height: 396px;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+	max-width: 800px;
+	margin-left: 5%;
+
+}
+
+.popup-detail iframe{
+	margin-left: 5%;
+	width: 640px; 
+	height: 360px;
+	max-width: 90vw;
+}
+
+.popup-detail img{
+	opacity: 1;
+	margin-left: 5%;
+	width: 90%; 
+	max-width: 640px;
+}	
+
+.popup-detail p{
+	margin-left: 5%;
+	font-family: "Courier New";
+	font-size: 13px;
+	font-weight: normal;
+	text-shadow: none;
+	width: 90%;
+}
+
+.close{
+	position: absolute;
+	right: 5%;
+	top: 25px;
+	font-size: 80px;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.error {
+	opacity: 0;
+	transition: 0.6s;
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	width: 100%;
+	z-index: 999;
+}
+
+.error.visible {
+	opacity: 1;
+	transition: 1.4s;
+	display: block;
+	width: 100%;
+	height: 100vh;
+	pointer-events: auto;
+}
+
+/*---------------------------
+Clearfix
+---------------------------*/
+
+.clearfix:before,
+.clearfix:after{
+	content: "";
+  	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+	*zoom: 1;
+}
+
+/*-------------------------
+Responsiveness
+-------------------------*/
+
+/*-------------------------
+Portrait
+-------------------------*/
+
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	.popup-detail figure{
+	background-position: 50% 50%;
+	}
+}
+
+/*-------------------------
+Landscape
+-------------------------*/
+@media screen and (max-device-width: 500px) and (orientation: landscape), screen and (max-device-height: 500px) and (orientation: landscape){
+	.sq {
+	width: 50vw;
+	height: 50vw;
+	}
+
+	.popup-detail figure{
+	background-position: 50% 50%;
+	}
+}
+
+/*-------------------------
+Everything but Mobile
+-------------------------*/
+
+@media screen and (min-width: 500px) and (min-device-width: 500px) {
+	.sq {
+	width: 50vw;
+	height: 50vw;
+	}
+
+	.popup-detail figure{
+	background-position: 50% 50%;
+	}
+
+}
+
+@media screen and (min-width: 780px) and (min-device-width: 500px) {
+	.sq {
+		width: 33.3333333vw;
+		height: 33.3333333vw;
+	}
+
+	.popup-detail p{
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	.popup-detail p{
+		width: 60%;
+	}
+}
+

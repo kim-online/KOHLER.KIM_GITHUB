@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+
+		<title>Kim Kohler's portfolio.</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=yes, initial-scale=1, width=device-width">
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="shortcut icon" href="#" />
+
+	</head>
+	<body>
+		<div class="all-content type">
+			<!-- Gridsystem, data pulled from Json. -->
+			<div class="grid page">
+			<section class="clearfix">	
+				<ul class="squares">
+					<script id="projects-template" type="text/x-handlebars-template">
+						{{#each this}}
+							<li data-index="{{id}}" class="{{sqid}}">
+								<img src="{{logo}}">
+								<h3><mark style="background-color: #FFFFFF">{{year}}</mark><br/></h3>
+								<h1><mark style="background-color: #FFFFFF">{{name}}</mark><br/></h1>
+								<h2><mark style="background-color: #FFFFFF">{{type}}</mark></h2>
+							</li>
+						{{/each}}
+					</script> 
+				</ul>
+			</section>
+			</div>
+			<!-- Every project has its own page that is hidden, is made visible when clicked on in grid system. -->
+			<div class="single-project page">
+			<div class="overlay"></div>
+			<div class="popup-detail">
+				
+				<h1><mark style="background-color: #FFFFFF">Single project view</mark></h1>
+				<h4><mark style="background-color: #FFFFFF">Blurb placeholder</mark></h4>
+				<span class="close">×</span>
+			</div>
+			</div>
+			<div class="error page">
+				<h3>Something went wrong and I'm not sure why.. :o</h3>
+			</div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
