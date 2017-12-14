@@ -1,9 +1,3 @@
-
-/*This SPA page is based on the template find here, the same
-as Umi Syam used for the DT's Thesis show.
-http://tutorialzine.com/2015/02/single-page-app-without-a-framework/
-*/
-
 var app = app || {};
 
 app.main = (function(){
